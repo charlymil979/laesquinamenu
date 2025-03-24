@@ -1,0 +1,94 @@
+{
+  "HAMBURGUESAS": [
+    [
+      "TODAS INCLUYEN PAPAS SIMPLES",
+      "  ",
+      [
+        [
+          "SIMPLE C/ CHEDDAR & PANCETA",
+          "$ 8500"
+        ],
+        [
+          "DOBLE CRISPY C/ CHEDDAR & PANCETA",
+          "$ 10500"
+        ],
+        [
+          "DOBLE C/ CHEDDAR Y& PANCETA",
+          "$ 10000"
+        ],
+        [
+          "TRIPLE C/ CHEDDAR Y& PANCETA",
+          "$ 11000"
+        ],
+        [
+          "SIMPLE CON LECHUGA Y TOMATE",
+          "$ 8500"
+        ],
+        [
+          "DOBLE CUARTO ESQUINA",
+          "$ 10500"
+        ],
+        [
+          "DOBLE CHICKEN CON CHEDDAR Y PANCETA",
+          "$ 10000"
+        ]
+      ]
+    ]
+  ],
+  "EXTRAS": [
+    [
+      "UN TOQUE EXTRA DE SABOR",
+      "  ",
+      [
+        [
+          "CHEDDAR",
+          "$ 1000"
+		  ],
+        [
+          "CHEDDAR Y PANCETA",
+          "$ 2000"
+        ],
+        [
+          "CEBOLLA CARAMELIZADA",
+          "$ 1000"
+        ],
+        [
+          "LECHUGA Y TOMATE",
+          "$ 1000"
+        ],
+        [
+          "CRISPY",
+          "$ 1000"
+        ]
+      ]
+    ]
+  ],
+  "LOS MAS PEDIDOS": [
+    [
+      "",
+      "  ",
+      [
+        [
+          "PAPAS COMPLETAS",
+          "$ 8500",
+          ""
+        ],
+        [
+          "PAPAS SIMPLES",
+          "$ 6500",
+          ""
+        ],
+        [
+          "CROCANTES DE POLLO",
+          "$ 9000",
+          ""
+        ],
+        [
+          "BASTONES DE MUZZA",
+          "$ 8000",
+          ""
+        ]
+      ]
+    ]
+  ]
+  }
