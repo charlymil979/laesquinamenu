@@ -1,13 +1,6 @@
 let datos = {};
-/* const url = "https://api.jsonbin.io/v3/b/67848b56e41b4d34e47677a6";
- mail: carlos.alberto
-const key = "$2a$10$8Qhm0RTQSh3ar9zIVLqApO2sZl.4RLtmnqAfWw9C3EgcDJQP7JiXC"; */
 
-// const url = "https://api.jsonbin.io/v3/b/6480e9ae9d312622a36bfd82";
-const url = "https://github.com/charlymil979/laesquinamenu/blob/main/docs/BIN-db.json";
-// mail:charly.mil
-
-// const key = "$2b$10$7gOb6JjvkSTgwNMBYXHlVO7hXKJZHt4O4vc6RC.YQ7l3QAHg9y7LO"
+const url = "https://charlymil979.github.io/laesquinamenu/BIN-db.json";
 
 const $container = document.querySelector(".container");
 
@@ -25,18 +18,12 @@ visible="",
 
 function llamarDb(url) {
   fetch(url
-/*     , {
-    headers: {
-      "X-Access-Key": key,
-    },
-  } */
+
   )
     .then((resp) => resp.json())
     .then((dato) => {
-      // console.log(dato)
       // console.log(dato.record.menu);
       const data = dato; //orig = dato.record
-      // console.log(data)
       // Empezando a armar la estructura de datos
       for (const key in data) {
         // console.log(data[key])
@@ -64,8 +51,6 @@ function llamarDb(url) {
           for (const articulo in data[key]) {
             let $tipos = "";
             datos = data[key][articulo];
-            // console.log(datos);
-
             $precio = "";
             //Armando el arreglo
             datos[2].forEach((element, i) => {
@@ -86,12 +71,7 @@ function llamarDb(url) {
             <div class="tipos">${$tipos}</div>
             </div>
             `;
-            
-            // console.log($tipos);
-            // console.log(datos[0]);
-            // console.log(datos[1]);
-            // console.log(datos[2][0][0]);
-            // console.log(datos[2][0][1]);
+   
             seccion.innerHTML += art;
 
             document.querySelector(".menu").appendChild(access);
