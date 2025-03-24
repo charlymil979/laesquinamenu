@@ -4,7 +4,7 @@ let datos = {};
 const key = "$2a$10$8Qhm0RTQSh3ar9zIVLqApO2sZl.4RLtmnqAfWw9C3EgcDJQP7JiXC"; */
 
 // const url = "https://api.jsonbin.io/v3/b/6480e9ae9d312622a36bfd82";
-const url = "../BIN-db.json";
+const url = "https://github.com/charlymil979/laesquinamenu/blob/main/docs/BIN-db.json";
 // mail:charly.mil
 
 // const key = "$2b$10$7gOb6JjvkSTgwNMBYXHlVO7hXKJZHt4O4vc6RC.YQ7l3QAHg9y7LO"
