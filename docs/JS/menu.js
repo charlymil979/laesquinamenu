@@ -56,8 +56,8 @@ function llamarDb(url) {
             datos[2].forEach((element, i) => {
             
                 $tipos += `<div>
-              <span class="tipo raleway"><span style="color:var(--bordeaux)">&#9679</span> ${element[0]}</span>
-              <span class="precio raleway">${element[1]}</span>
+              <span class="tipo"><span style="color:var(--bordeaux)">&#9679</span> ${element[0]}</span>
+              <span class="precio">${element[1]}</span>
               </div>
               `;
 
